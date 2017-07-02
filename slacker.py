@@ -47,10 +47,11 @@ def s_print (s_text, print_type = "n"):
 	s_channel = s_channel_n
 	#This channels is for alarms, that require an immediate action
 	s_channel_a =  "C3LL39BQA"
-	if print_type == "a": s_channel = s_channel_a
+	if print_type == "n": s_channel = s_channel_n
+	'''
 	elif print_type == "n": s_channel = s_channel_n
 	elif print_type == "t": s_channel = s_channel_t
-	
+	'''
 	elif len (print_type) > 0 or not print_type: 
 		print ("A wrong parameter for s_print. Please check. Should be ""n"" or ""a""")
 		print ("Proseed without brack as with ""n""") 
