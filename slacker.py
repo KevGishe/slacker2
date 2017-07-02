@@ -34,9 +34,8 @@ from threading import Thread
 
 from requests.auth import HTTPBasicAuth
 
-
-#S_TOKEN = "xoxp-12755663922-12785724403-62714997894-68a85cd7c8"
-S_TOKEN  = "xoxp-206336576021-206236641970-207217348070-d482449e31ceda18e09d0eba217ad2b5"
+#remember to import the token from txt file
+S_TOKEN  = "s_token"
 notifications_channel = "C62BXU6SE"
 
 def s_print (s_text, print_type = "n"):
